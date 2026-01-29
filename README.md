@@ -1,7 +1,8 @@
 # 🎓 Student Management System
 
 A lightweight, desktop-based CRUD (Create, Read, Update, Delete) application. This tool leverages Python's Tkinter library for a streamlined graphical interface and MySQL for robust data persistence.
-🚀 Key Features
+
+# 🚀 Key Features
 
     Add Students: Register new records with name, age, and major details.
 
@@ -17,14 +18,13 @@ A lightweight, desktop-based CRUD (Create, Read, Update, Delete) application. Th
 
 Ensure you have the following installed on your local environment:
 
-    Python 3.x
+   1. Python 3.x
+   2. MySQL Server (XAMPP, WAMP, or standalone MySQL installation)
 
-    MySQL Server (XAMPP, WAMP, or standalone MySQL installation)
-
-    MySQL Connector for Python:
-    Bash
+MySQL Connector for Python:
 ```
     pip install mysql-connector-python
+```
 
 # ⚙️ Setup Instructions
 1. Database Configuration
@@ -33,7 +33,7 @@ Create the database in your MySQL environment. The application handles table cre
 SQL
 ```
 CREATE DATABASE student_db;
-
+```
 2. Connection Settings
 
 If your MySQL configuration differs from the defaults, update the get_db_connection() function in hello.py:
@@ -47,9 +47,9 @@ If your MySQL configuration differs from the defaults, update the get_db_connect
 # 🖥️ Usage
 
     Launch the App:
-    Bash
 ```
     python hello.py
+```
 
     Add: Fill in the fields and click ADD NEW.
 
@@ -58,6 +58,5 @@ If your MySQL configuration differs from the defaults, update the get_db_connect
     Delete: Select a record and click DELETE. You will be prompted for confirmation before the system re-sequences the IDs.
 
 # 📁 File Structure
-File,Description
-hello.py,Main script containing the Tkinter GUI logic and SQL queries.
-mysql.connector,SQL initialization script for database setup.
+1. hello.py -> Main script containing the Tkinter GUI logic and SQL queries.
+2. mysql.connector -> SQL initialization script for database setup.
