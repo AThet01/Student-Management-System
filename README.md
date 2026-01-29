@@ -23,7 +23,7 @@ Ensure you have the following installed on your local environment:
 
 MySQL Connector for Python:
 ```
-    pip install mysql-connector-python
+pip install mysql-connector-python
 ```
 
 # ⚙️ Setup Instructions
@@ -46,11 +46,10 @@ If your MySQL configuration differs from the defaults, update the get_db_connect
 
 # 🖥️ Usage
 
-    Launch the App:
+Launch the App:
+```  
+python hello.py
 ```
-    python hello.py
-```
-
     Add: Fill in the fields and click ADD NEW.
 
     Update: Select a student from the list, edit the fields, and click UPDATE.
