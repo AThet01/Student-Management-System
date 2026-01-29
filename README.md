@@ -1,5 +1,5 @@
 # Student-Management-System
-A lightweight, desktop-based CRUD (Create, Read, Update, Delete) application built with Python using the tkinter library for the graphical interface and MySQL for data persistence
+A lightweight, desktop-based CRUD (Create, Read, Update, Delete) application built with Python using the tkinter library for the graphical interface and MySQL for data persistence.
 
 # 🚀 Features
 
@@ -16,17 +16,14 @@ A lightweight, desktop-based CRUD (Create, Read, Update, Delete) application bui
 # 🛠️ Prerequisites
 
 Before running the application, ensure you have the following installed:
-```
     Python 3.x
-
     MySQL Server (e.g., XAMPP, WAMP, or a standalone MySQL installation)
-```
-
+    
     MySQL Connector for Python:
-    Bash
 ```
     pip install mysql-connector-python
 ```
+
 # ⚙️ Setup Instructions
 1. Database Configuration
 
@@ -51,7 +48,6 @@ Open hello.py and update the get_db_connection() function with your MySQL creden
 # 🖥️ Usage
 
     Run the application:
-    Bash
 ```
     python hello.py
 ```
