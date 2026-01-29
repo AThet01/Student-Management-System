@@ -16,12 +16,13 @@ A lightweight, desktop-based CRUD (Create, Read, Update, Delete) application bui
 # 🛠️ Prerequisites
 
 Before running the application, ensure you have the following installed:
-    Python 3.x
-    MySQL Server (e.g., XAMPP, WAMP, or a standalone MySQL installation)
+    1.Python 3.x
+    2.MySQL Server (e.g., XAMPP, WAMP, or a standalone MySQL installation)
     
     MySQL Connector for Python:
+    ```
     pip install mysql-connector-python
-
+    ```
 # ⚙️ Setup Instructions
 1. Database Configuration
 
@@ -46,8 +47,9 @@ Open hello.py and update the get_db_connection() function with your MySQL creden
 # 🖥️ Usage
 
     Run the application:
+    ```
     python hello.py
-
+```
     To Add: Enter the student's details and click ADD NEW.
 
     To Update: Click on a student in the table, change the text in the input boxes, and click UPDATE.
