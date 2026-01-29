@@ -20,6 +20,7 @@ Before running the application, ensure you have the following installed:
     2.MySQL Server (e.g., XAMPP, WAMP, or a standalone MySQL installation)
     
     MySQL Connector for Python:
+    bash
     ```
     pip install mysql-connector-python
     ```
@@ -47,6 +48,7 @@ Open hello.py and update the get_db_connection() function with your MySQL creden
 # 🖥️ Usage
 
     Run the application:
+    bash
     ```
     python hello.py
 ```
