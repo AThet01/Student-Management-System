@@ -46,15 +46,15 @@ If your MySQL configuration differs from the defaults, update the get_db_connect
 
 # 🖥️ Usage
 
-Launch the App:
-```  
+1. Run the application:
+```
 python hello.py
 ```
-    Add: Fill in the fields and click ADD NEW.
+2. To Add: Enter the student's details and click ADD NEW.
 
-    Update: Select a student from the list, edit the fields, and click UPDATE.
+3. To Update: Click on a student in the table, change the text in the input boxes, and click UPDATE.
 
-    Delete: Select a record and click DELETE. You will be prompted for confirmation before the system re-sequences the IDs.
+4. To Delete: Select a student from the table and click DELETE. The system will prompt for confirmation and then re-sequence the IDs.
 
 # 📁 File Structure
 1. hello.py -> Main script containing the Tkinter GUI logic and SQL queries.
