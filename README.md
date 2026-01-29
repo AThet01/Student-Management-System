@@ -25,7 +25,7 @@ Ensure you have the following installed on your local environment:
     Bash
 ```
     pip install mysql-connector-python
-```
+
 # ⚙️ Setup Instructions
 1. Database Configuration
 
@@ -33,7 +33,7 @@ Create the database in your MySQL environment. The application handles table cre
 SQL
 ```
 CREATE DATABASE student_db;
-```
+
 2. Connection Settings
 
 If your MySQL configuration differs from the defaults, update the get_db_connection() function in hello.py:
@@ -50,7 +50,7 @@ If your MySQL configuration differs from the defaults, update the get_db_connect
     Bash
 ```
     python hello.py
-```
+
     Add: Fill in the fields and click ADD NEW.
 
     Update: Select a student from the list, edit the fields, and click UPDATE.
