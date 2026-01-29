@@ -47,10 +47,12 @@ Open hello.py and update the get_db_connection() function with your MySQL creden
 
 # 🖥️ Usage
 
-    Run the application:
+     Run the application:
+     
 ```
     python hello.py
 ```
+
     To Add: Enter the student's details and click ADD NEW.
 
     To Update: Click on a student in the table, change the text in the input boxes, and click UPDATE.
