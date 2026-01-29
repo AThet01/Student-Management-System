@@ -23,17 +23,17 @@ Ensure you have the following installed on your local environment:
 
     MySQL Connector for Python:
     Bash
-
+```
     pip install mysql-connector-python
-
+```
 # ⚙️ Setup Instructions
 1. Database Configuration
 
 Create the database in your MySQL environment. The application handles table creation (students) automatically on its first run.
 SQL
-
+```
 CREATE DATABASE student_db;
-
+```
 2. Connection Settings
 
 If your MySQL configuration differs from the defaults, update the get_db_connection() function in hello.py:
@@ -48,9 +48,9 @@ If your MySQL configuration differs from the defaults, update the get_db_connect
 
     Launch the App:
     Bash
-
+```
     python hello.py
-
+```
     Add: Fill in the fields and click ADD NEW.
 
     Update: Select a student from the list, edit the fields, and click UPDATE.
@@ -58,6 +58,6 @@ If your MySQL configuration differs from the defaults, update the get_db_connect
     Delete: Select a record and click DELETE. You will be prompted for confirmation before the system re-sequences the IDs.
 
 # 📁 File Structure
-File	Description
-hello.py	Main script containing the Tkinter GUI logic and SQL queries.
-mysql.connector	SQL initialization script for database setup.
+File,Description
+hello.py,Main script containing the Tkinter GUI logic and SQL queries.
+mysql.connector,SQL initialization script for database setup.
